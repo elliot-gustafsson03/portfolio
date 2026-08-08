@@ -98,7 +98,8 @@ const App: Component = () => {
   const projects: ProjectProps[] = [
     {
       title: "Concrete Pump Hose",
-      description: "",
+      description:
+        "Developed a model to estimate tensile force in a pneumatic muscle of a hose robot. Data points were gathered on the physical system to fit the simulated model.",
       stack: "PLC Programming • Physics • Data Collection",
       github: "https://elliot-gustafsson03.github.io/hose-sim/",
       mediaType: "image",
@@ -106,14 +107,16 @@ const App: Component = () => {
     },
     {
       title: "Ball and Beam Regulator",
-      description: "",
+      description:
+        "Designed cascade PID controllers to control ball position from motor voltage. A state machine sets reference values to perform desired actions; in this case, throwing a ball in a basket.",
       stack: "Java • Concurrency • PID Regulation",
       mediaType: "video",
       mediaSrc: beamVideo,
     },
     {
       title: "Real-time Audio Processing",
-      description: "",
+      description:
+        "A framework for implementing audio effects in real time. Multiple effect blocks can be chained together to create more complex audio processing.",
       stack: "C • Real-time • Signal Processing",
       github: "https://github.com/elliot-gustafsson03/realtime-dsp",
       mediaType: "image",
@@ -121,14 +124,16 @@ const App: Component = () => {
     },
     {
       title: "Controlling of Mini Segway",
-      description: "",
+      description:
+        "An LQR controller is combined with a Kalman filter to estimate system state and produce an optimal control law. The controller attempts to push the measured segway angle to zero by applying motor voltage.",
       stack: "MatLab • LQR • Kalman Filter",
       mediaType: "video",
       mediaSrc: segwayVideo,
     },
     {
       title: "AI Snake",
-      description: "",
+      description:
+        "Teaching a model to play Snake through a reinforcement learning algorithm. The model maps a state to beneficial moves through reward and punishment.",
       stack: "TypeScript • Machine Learning",
       github: "https://elliot-gustafsson03.github.io/AI-Snake/",
       mediaType: "image",
