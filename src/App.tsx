@@ -193,7 +193,7 @@ const App: Component = () => {
                 linkedin
               </a>
               <a
-                href="/cv.pdf"
+                href="https://drive.google.com/file/d/1NVqXBD4kDmIMaLgeiMH6Ef2gccG02582/view?usp=drive_link"
                 class="text-neutral-500 hover:text-neutral-200 transition-colors"
               >
                 resume
